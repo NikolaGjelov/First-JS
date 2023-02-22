@@ -1,8 +1,9 @@
 input{
-  width: 285px;
+  width: 280px;
   height: 50px;
   text-align: center;
   font-size: 40px;
+  margin: 10px 0px 10px 0px;
 }
 
 button{
@@ -10,6 +11,9 @@ button{
   width: 50px;
   margin: 10px;
   font-size: 20px;
+  background-color: rgb(255, 196, 0);
+  border-radius: 5px;
+  border: none;
 }
 
 span{
@@ -18,5 +22,19 @@ span{
 }
 
 label{
-  font-size: 40px;
+  font-size: 40px;  
+}
+
+.sum-container{
+  text-align: left !important;
+}
+
+.main{
+  max-width: 300px;
+  min-height: 350px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 10px;
 }
